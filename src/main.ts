@@ -5,7 +5,11 @@ import { setupCounter } from "./counter.ts";
 import observable from "./observable.ts";
 import mutiple from "./mutiple.ts";
 import cleanUp from "./cleanUp.ts";
+import cold from "./cold.ts";
+import hot from "./hot.ts";
 
 // observable();
 // mutiple();
-cleanUp();
+// cleanUp();
+// cold();
+hot();
