@@ -8,10 +8,11 @@ import cleanUp from "./cleanUp.ts";
 import cold from "./cold.ts";
 import hot from "./hot.ts";
 import forkJoin from "./creations/forkJoin.ts";
-
+import combineLatest from "./creations/combineLatest.ts";
 // observable();
 // mutiple();
 // cleanUp();
 // cold();
 // hot();
-forkJoin();
+// forkJoin();
+combineLatest();
